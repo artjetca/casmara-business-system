@@ -1,18 +1,18 @@
-# Casmara 品牌產品業務專員系統
+# Sistema de Representantes Comerciales de la Marca Casmara
 
-## 項目概述
+## Descripción del Proyecto
 
-此系統是為 Casmara 品牌業務專員設計的工作管理平台，包含客戶管理、行程安排、地圖導航和數據分析功能。
+Este sistema es una plataforma de gestión laboral diseñada para representantes comerciales de la marca Casmara, que incluye gestión de clientes, programación de citas, navegación por mapas y funciones de análisis de datos.
 
-## 檔案夾結構
+## Estructura de Carpetas
 
-- `src/` - 前端源代碼
-- `cloudfunctions/` - 雲函數
-- `specs/` - 需求與設計文檔
-- `public/` - 靜態資源
+- `src/` - Código fuente del frontend
+- `cloudfunctions/` - Funciones en la nube
+- `specs/` - Documentación de requisitos y diseño
+- `public/` - Recursos estáticos
 
-## 開發指南
+## Guía de Desarrollo
 
-1. 安裝依賴：`npm install`
-2. 啟動開發服務器：`npm run dev`
-3. 構建生產版本：`npm run build`
+1. Instalar dependencias: `npm install`
+2. Iniciar servidor de desarrollo: `npm run dev`
+3. Construir versión de producción: `npm run build`

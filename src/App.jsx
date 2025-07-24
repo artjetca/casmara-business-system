@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 // 頁面組件
+import Home from './pages/Home';
 import Login from './pages/Login';
 import Clients from './pages/Clients';
 import Visits from './pages/Visits';
@@ -11,6 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/clients" element={<Clients />} />
         <Route path="/visits" element={<Visits />} />
